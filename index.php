@@ -11,7 +11,8 @@
       <?php echo $files[$a];?>
       <a href="uploads/<?php echo $files[$a];?>" download="<?php echo $files[$a];?>"><button>Download</button>
       </a>
-      
+      <button onclick="window.location.href='uploads/<?php echo $files[$a];?>'">Preview</button>
+
       <a href="delete.php?name=uploads/<?php echo $files[$a];?>" style="color:red;"><button>Delete</button>
       </a>
       </p>
